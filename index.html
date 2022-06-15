@@ -61,6 +61,13 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      a.anchor {
+        display: block;
+        position: relative;
+        top: -4.5rem;
+        visibility: hidden;
+      }
     </style>
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -80,13 +87,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Over</a>
+                            <a class="nav-link" href="#Over">Over</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Uren</a>
+                            <a class="nav-link" href="#Uren">Uren</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -124,6 +131,7 @@
             </div><!-- /.row -->
             <!-- START THE FEATURETTES -->
             <hr class="featurette-divider">
+            <a class="anchor" id="Over"></a>
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading fw-normal lh-1">LANDRU</h2>
@@ -135,9 +143,11 @@
                     <img src="./landru.jpg" alt="LANDRU" height="80%">
                 </div>
             </div>
+            <a class="anchor" id="Uren"></a>
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row justify-content-center">
+                    
                     <div class="col-lg-4">
                         <h2 class="fw-normal">Uren</h2>
                         <p>23u00; 3u00; 6u00</p>
@@ -149,6 +159,7 @@
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
+            <a class="anchor" id="Contact"></a>
             Voor vragen? Stuur ons een mailtje.
             <form action="mailto:stine@marinus.net">
                 <label for="fname">Voornaam:</label><br>
